@@ -1,0 +1,19 @@
+1-forEach works only with arrays and performs an operation on each element, but you can't stop the loop midway.
+
+for...of works with any iterable, such as arrays or strings, and you can also stop it using break or continue.
+
+Use forEach when performing a straightforward operation on each element, and use for...of if you need more control over how the loop works.
+
+
+
+2-Hoisting means that the definition of variables and functions is raised to the top before execution without values, and TDZ is the period in which let or const exists but you are not allowed to use it up to the definition line.
+
+
+
+3-The == operator compares values only and attempts to perform an automatic conversion if the types are different. The === operator, however, compares both the value and the type.
+
+
+4-The try-catch function attempts to execute code, and if an error occurs, it enters a catch without crashing the program. This is crucial in asynchronous programming because it handles errors that occur within promises or await.
+
+
+5-Type conversion is when you explicitly change the value type yourself. Coercion, on the other hand, is an automatic conversion performed by JavaScript to complete the process, like adding a number to a string, which then becomes a string.
